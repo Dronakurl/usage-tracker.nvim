@@ -1,11 +1,10 @@
 # Usage-Tracker.nvim
 
-> The plugin is in ⚠️ active development, and you can expect breaking changes in the future.
+<!-- The plugin is in ⚠️ active development, and you can expect breaking changes in the future. -->
 <!-- Also the code is kind of 💩, refactoring is required.-->
 <!-- Hidden remark from a contributor: It is not 💩! -->
-<!-- TODO: write a vim help file -->
 
-NeoVim plugin with which you can track your usage along git project, branch and filetype.
+Neovim plugin with which you can track your usage along git project, branch and filetype.
 Logs are stored locally, so no sensitive data leaves your machine.
 
 ![Screenshot of the optional html output](screenshot.webp)
@@ -17,13 +16,13 @@ Use your favourite package manager, configuration parameters are optional.
 
 - [vim-plug](https://github.com/junegunn/vim-plug):
 ```lua
-Plug 'gaborvecsei/usage-tracker.nvim'
+Plug 'Dronakurl/usage-tracker.nvim'
 ```
 
 - [lazy.nvim](https://github.com/folke/lazy.nvim)
 ```lua
 {
-  "gaborvecsei/usage-tracker.nvim",
+  "Dronakurl/usage-tracker.nvim",
   config = function()
     require("usage-tracker").setup({})
   end,
